@@ -1,6 +1,14 @@
 ﻿using AM.Core.Domain;
+using AM.Core.Extensions;
+using AM.Core.Services;
 //using System.Numerics; //starr hedha lezemni na7ih mel class sinn ywalli ya9ra fih howa namspace
 // See https://aka.ms/new-console-template for more information
+
+
+
+// TP2 
+// Question 13.c
+
 Console.WriteLine("Hello, World Mounaaaa!");
 
 // TP1 Question7
@@ -49,3 +57,26 @@ Console.WriteLine(passenger3.ToString()+" ******Age:"+passenger3.Age);
 
 
 
+
+//IFlightService.GetScore methode2 = delegate (Passenger p)
+//{
+
+
+
+//}
+
+//tp2 13.c
+IFlightService.GetScore methode1 = delegate (Passenger p) //calcule par nbr de vol
+{
+    return p.flights.Count();
+};
+IFlightService.GetScore methode2 = delegate (Passenger p)  // calcule par nbr de vol det et depar tiunisia
+{
+
+    return p.flights.Where(f => f.Destination == "Tunisia"
+                        || f.Departure == "Tunisia").Count();
+};
+IFlightService flightService = new FlightService();
+var passengerSenior = flightService.GetSeniorPassenger(methode2);
+Flight f = new Flight();
+f.GetDelay();

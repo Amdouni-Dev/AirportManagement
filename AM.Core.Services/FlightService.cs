@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AM.Core.Services
 {
-    internal class FlightService:IFlightService
+    public class FlightService:IFlightService
     {
         //Question2 Tp2
         public IList<Flight> Flights { get; set; }
@@ -155,37 +155,66 @@ namespace AM.Core.Services
         // Question 12 Tp 2
         public void ShowGroupedFlights()
         {
-            var result = Flights.GroupBy(f => f.Destination);
-            foreach (var f in result)
+            //var result = Flights.GroupBy(f => f.Destination);
+            //foreach (var f in result)
+            //{
+            //    Console.WriteLine("resultat: " + f);
+            //}
+
+            // ********************Correction En class
+            IEnumerable<IGrouping<string, Flight>> result = from f in Flights
+                                                            group f by f.Destination;
+            foreach (var Grp in result) // houni bech yboukli aal grps
             {
-                Console.WriteLine("resultat: " + f);
+                Console.WriteLine(Grp.Key);
+                foreach(var f in Grp) // houni bech nboukli aal les element eli fel grp
+                {
+                    Console.WriteLine(f);
+                }
             }
         }
+
 
         // Question 13 Tp2
         //Un délégué est un type de données qui permet de stocker une référence à une méthode.
         //Il peut être considéré comme un pointeur de fonction dans d'autres langages de programmation.
-        public delegate double GetScore(Passenger passenger);
+        public delegate int GetScore(Passenger passenger);
 
 
         // Question 14 TP2
-        public Passenger GetSeniorPassenger(List<Passenger> passengers, GetScore getScoreMethod)
+        //public Passenger GetSeniorPassenger(List<Passenger> passengers, GetScore getScoreMethod)
+        //{
+        //    double maxScore = double.MinValue;
+        //    Passenger seniorPassenger = null;
+
+        //    foreach (Passenger passenger in passengers)
+        //    {
+        //        double score = getScoreMethod(passenger);
+        //        if (score > maxScore && passenger.Age >= 60)
+        //        {
+        //            maxScore = score;
+        //            seniorPassenger = passenger;
+        //        }
+        //    }
+
+        //    return seniorPassenger;
+        //}
+
+        // **************Correction En class
+
+        public Passenger GetSeniorPassenger(IFlightService.GetScore meth)
         {
-            double maxScore = double.MinValue;
-            Passenger seniorPassenger = null;
 
-            foreach (Passenger passenger in passengers)
-            {
-                double score = getScoreMethod(passenger);
-                if (score > maxScore && passenger.Age >= 60)
-                {
-                    maxScore = score;
-                    seniorPassenger = passenger;
-                }
-            }
 
-            return seniorPassenger;
+
+           return  (from f in Flights
+                          from p in f.passengers
+                          orderby meth(p) descending
+                          select p).First();
+            //return result;
         }
+
+
 
 
 

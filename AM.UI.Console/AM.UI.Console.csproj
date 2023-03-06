@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AM.Core.Domain\AM.Core.Domain.csproj" />
+    <ProjectReference Include="..\AM.Core.Extensions\AM.Core.Extensions.csproj" />
     <ProjectReference Include="..\AM.Core.Services\AM.Core.Services.csproj" />
   </ItemGroup>
 
