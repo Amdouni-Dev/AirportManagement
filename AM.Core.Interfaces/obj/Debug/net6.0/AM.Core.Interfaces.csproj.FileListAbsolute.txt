@@ -1,0 +1,12 @@
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\bin\Debug\net6.0\AM.Core.Interfaces.deps.json
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\bin\Debug\net6.0\AM.Core.Interfaces.dll
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\bin\Debug\net6.0\AM.Core.Interfaces.pdb
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.csproj.AssemblyReference.cache
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.AssemblyInfoInputs.cache
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.AssemblyInfo.cs
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.dll
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\refint\AM.Core.Interfaces.dll
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\AM.Core.Interfaces.pdb
+C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Interfaces\obj\Debug\net6.0\ref\AM.Core.Interfaces.dll

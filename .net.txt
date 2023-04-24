@@ -1,0 +1,4 @@
+	1/creation base + configuration des relation + configuration AM.Data (NameConfig)
+
+update-database //meme si mandikech base de donne
+remove migration // tfasa5 e5er migration
