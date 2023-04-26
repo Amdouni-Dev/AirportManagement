@@ -207,11 +207,11 @@ namespace AM.Core.Services
 
 
 
-           return  (from f in Flights
-                          from p in f.passengers
-                          orderby meth(p) descending
-                          select p).First();
-            //return result;
+           //return  (from f in Flights
+           //               from p in f.passengers
+           //               orderby meth(p) descending
+           //               select p).First();
+            return null;
         }
 
 

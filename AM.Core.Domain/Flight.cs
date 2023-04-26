@@ -16,6 +16,7 @@ namespace AM.Core.Domain
         public int estimationDuration { get; set; }
         public Plane MyPlane { get; set; }
         public IList<Passenger> passengers { get; set; }
+        public string Comment { get; set; }
         public override string ToString()
         {
             return "Destination: " + Destination + ";"
@@ -26,5 +27,7 @@ namespace AM.Core.Domain
                 + "estimationDuration" + estimationDuration + ";";
 
         }
+
+    
     }
 }

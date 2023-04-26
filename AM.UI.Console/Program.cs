@@ -1,6 +1,7 @@
 ﻿using AM.Core.Domain;
 using AM.Core.Extensions;
 using AM.Core.Services;
+using AM.Data;
 //using System.Numerics; //starr hedha lezemni na7ih mel class sinn ywalli ya9ra fih howa namspace
 // See https://aka.ms/new-console-template for more information
 
@@ -80,3 +81,21 @@ IFlightService flightService = new FlightService();
 var passengerSenior = flightService.GetSeniorPassenger(methode2);
 Flight f = new Flight();
 f.GetDelay();
+
+Flight f2 = new Flight()
+{
+    Destination="Tunis1",
+    Departure ="Tunis2",
+    FlightDate = new DateTime(2000, 10, 10),
+    EffectiveArrival = new DateTime(2000,10,10),
+    estimationDuration=20,
+    Comment="Hi Mouna",
+    MyPlane=plane3
+   
+
+};
+
+AMContext amc = new AMContext();
+//amc.Add(plane3);
+amc.Add(f2);
+amc.SaveChanges();
