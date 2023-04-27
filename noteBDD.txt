@@ -1,0 +1,192 @@
+
+///
+ay objet bel virtual
+
+ Dima
+menfassakhch l base
+Regenere l'application
+
+ Migration jdida Add-Migration ...
+update-database
+
+
+Discriminator==> bech ta3mel reference bin les instances mte3  classe Fel config ==> ki yabdew 2 classes yeritou men nafs l classe nesta3mle colonne discrimibatrice
+
+one to many ==> representé mapr un cle id
+ManyToMany ==> reprsenté par esm les2class
+
+ki nhot l context w nzid fazet l Add ==> l add metzidech lel base ema tzidha lel image 
+w bech nsajjel fel base naamel saveChanges()
+
+
+install packages: f dossier Data
+
+dotnet tool install --global dotnet-ef
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.9
+
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.9
+
+
+Creation Projet:
+1-Domain:entités
+2-Services:Interface+Classe
+3-Data:AMContext:BD--->
+EntityFrameworkCore version 6.0.9.
+EntityFrameworkCore.SqlServer version 6.0.9.
+EntityFrameworkCore.Tools version 6.0.9
+EntityFrameworkCore.Proxies.
+** njib fiha les tables lkol   public DbSet<Passenger> Passengers { get; set; } 
+**    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) // options Builder nhotou fih les parametremte3 l bdd
+        {
+           
+        optionsBuilder.UseSqlServer(@"Data Source=(localdb)\mssqllocaldb; 
+        Initial Catalog = Airport;  
+        Integrated Security = true");
+           
+           
+
+
+           // base.OnConfiguring(optionsBuilder);
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new PlaneConfig());
+            modelBuilder.ApplyConfiguration(new FlightConfig());
+    
+         
+           
+
+        }
+ protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            configurationBuilder.Properties<DateTime>()
+                .HaveColumnType("date");
+        }
+
+
+***** Dossier configurations
+
+
+4-Console:
+EntityFrameworkCore.Design version 6.0.9.
+
+EntityFrameworkCore version 6.0.9.
+EntityFrameworkCore.SqlServer version 6.0.9.
+EntityFrameworkCore.Design version 6.0.9.
+EntityFrameworkCore.Tools version 6.0.9
+
+Add-Migration CommentInFlight
+Update-Database
+
+
+*******************Contrintes
+
+
+Cle Primaire
+[key]
+    [MinLength(7, ErrorMessage = "MinLength 7")]
+        [MaxLength(7, ErrorMessage = "MaxLength 7")]
+*************************Email
+        [EmailAddress(ErrorMessage = "une address email invalid .")]
+************************Phone
+[Phone(ErrorMessage ="phone number")]
+********************Obligatoire
+   [Required]
+
+*******************Entier Positif
+  [Range(0, int.MaxValue, ErrorMessage = "entier positive")]
+*******************************Valeur Monetaire
+ [DataType(DataType.Currency)]
+
+
+
+************************Configurations
+
+   public class PlaneConfig : IEntityTypeConfiguration<Plane>
+    {
+        public void Configure(EntityTypeBuilder<Plane> builder)
+        {
+            builder.ToTable("MyPlanes");// nbadel esm table
+            builder.Property(p => p.Capacity).HasColumnName("PlaneCapacity"); // nabdel esm colonne
+            builder.HasKey(p => p.PlaneId); // nhotlou Primary Key
+
+
+        }
+    }
+
+
+    public void Configure(EntityTypeBuilder<Flight> builder)
+        {
+
+            // relation many to many Flight * -->  * Passenger
+            builder
+                .HasMany(f => f.passengers)
+                .WithMany(p => p.flights);
+
+            // relation Plane 1 --> * Flight
+          builder
+                .HasOne(f=>f.MyPlane) // relation 1
+                .WithMany(p=>p.Flights) // chnowa ba3thetlha 
+                .HasPrincipalKey(f=>f.PlaneId) // FK
+                .OnDelete(DeleteBehavior.SetNull); // ki tetfassakh avion kol flight tebe3 l avion hedhykja  ywalli null 
+        }
+
+
+
+
+
+
+// hedhy ki yabda aandi f west classe proprieté de type classe okhra w l classe okhra fiha deja des propretés lezemni nhotelhom contraints 
+ public class PassengerConfig : IEntityTypeConfiguration<Passenger>
+    {
+        public void Configure(EntityTypeBuilder<Passenger> builder)
+        {
+           builder
+                .OwnsOne(p => p.FullName,full =>
+                {
+                    full.Property(f => f.FirstName)
+                    .HasMaxLength(30)
+                    .HasColumnName("Name");
+                    full.Property(f => f.LastName)
+                    .IsRequired();
+                }
+            );
+        }
+
+
+
+
+
+
+
+
+
+
+/******************* Configuration Classe Porteuse 
+   public void Configure(EntityTypeBuilder<Reservation> builder)
+        {
+
+            builder
+                   .HasOne(r => r.MyPassenger)
+                   .WithMany(p => p.Reservations)
+                   .HasForeignKey(r => r.PassengerId)
+                   .OnDelete(DeleteBehavior.Cascade);
+            builder
+                 .HasOne(r => r.MyFlight)
+                 .WithMany(p => p.Reservations)
+                 .HasForeignKey(r=>r.FlightId)
+                 .OnDelete(DeleteBehavior.Cascade);
+            builder.HasKey(r => new { r.FlightId,r.PassengerId });
+
+
+        }
+
+
+
+Colonne Affiché par Date of Birth:[Dispaly(Name="Date of birth")]
+
+
+
+
+champ obligatoire
