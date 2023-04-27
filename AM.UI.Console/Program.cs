@@ -1,5 +1,6 @@
 ﻿using AM.Core.Domain;
 using AM.Core.Extensions;
+using AM.Core.Interfaces;
 using AM.Core.Services;
 using AM.Data;
 //using System.Numerics; //starr hedha lezemni na7ih mel class sinn ywalli ya9ra fih howa namspace
@@ -67,66 +68,78 @@ Console.WriteLine(passenger3.ToString()+" ******Age:"+passenger3.Age);
 //}
 
 //tp2 13.c
-IFlightService.GetScore methode1 = delegate (Passenger p) //calcule par nbr de vol
+//IFlightService.GetScore methode1 = delegate (Passenger p) //calcule par nbr de vol
+//{
+//    return p.flights.Count();
+//};
+//IFlightService.GetScore methode2 = delegate (Passenger p)  // calcule par nbr de vol det et depar tiunisia
+//{
+
+//    return p.flights.Where(f => f.Destination == "Tunisia"
+//                        || f.Departure == "Tunisia").Count();
+//};
+//IFlightService flightService = new FlightService();
+//var passengerSenior = flightService.GetSeniorPassenger(methode2);
+//Flight f = new Flight();
+//f.GetDelay();
+
+//Flight f2 = new Flight()
+//{
+//    Destination="Tunis1",
+//    Departure ="Tunis2",
+//    FlightDate = new DateTime(2000, 10, 10),
+//    EffectiveArrival = new DateTime(2000,10,10),
+//    estimationDuration=20,
+//    Comment="Hi Mouna",
+//    MyPlane=plane3
+
+
+//};
+
+//AMContext amc = new AMContext();
+////amc.Add(plane3);
+//amc.Add(f2);
+//Passenger passengerTest = new Passenger()
+//{
+//    FirstName="Mouna",
+//    LastName="AMdouni",
+//    BirthDate = new DateTime(2000, 07, 27),
+//    PassportNumber = "1234567",
+//    EmailAddress = "mouna@gmail.com",
+//    FullName = new FullName()
+//    {
+
+//        FirstName = "Mouna",
+//        LastName = "Amdouni"
+//    },
+//    TelNumber = "20618005"
+//};
+//amc.Add(passengerTest);
+//Reservation r =new Reservation()
+//{
+//    Price= 10,
+//    Seat="A24",
+//    Vip=true,
+//    MyFlight=f2,
+//    MyPassenger=passengerTest
+//};
+//amc.Add(r);
+
+//amc.SaveChanges();
+
+AMContext ctxt = new AMContext();
+IRepository<Flight> flightRepository = new Repository<Flight>(ctxt);
+FlightService flightService1 = new FlightService(flightRepository);
+Flight flightQ12 = new Flight()
 {
-    return p.flights.Count();
+    Comment = "comment",
+    Departure = "Tunis",
+    Destination = "Canada",
+    EffectiveArrival = new DateTime(2023, 09, 01, 12, 0, 0),
+    estimationDuration = 60,
+    FlightDate = new DateTime(2023, 09, 01, 10, 30, 0)
 };
-IFlightService.GetScore methode2 = delegate (Passenger p)  // calcule par nbr de vol det et depar tiunisia
-{
-
-    return p.flights.Where(f => f.Destination == "Tunisia"
-                        || f.Departure == "Tunisia").Count();
-};
-IFlightService flightService = new FlightService();
-var passengerSenior = flightService.GetSeniorPassenger(methode2);
-Flight f = new Flight();
-f.GetDelay();
-
-Flight f2 = new Flight()
-{
-    Destination="Tunis1",
-    Departure ="Tunis2",
-    FlightDate = new DateTime(2000, 10, 10),
-    EffectiveArrival = new DateTime(2000,10,10),
-    estimationDuration=20,
-    Comment="Hi Mouna",
-    MyPlane=plane3
-   
-
-};
-
-AMContext amc = new AMContext();
-//amc.Add(plane3);
-amc.Add(f2);
-Passenger passengerTest = new Passenger()
-{
-    FirstName="Mouna",
-    LastName="AMdouni",
-    BirthDate = new DateTime(2000, 07, 27),
-    PassportNumber = "1234567",
-    EmailAddress = "mouna@gmail.com",
-    FullName = new FullName()
-    {
-
-        FirstName = "Mouna",
-        LastName = "Amdouni"
-    },
-    TelNumber = "20618005"
-};
-amc.Add(passengerTest);
-Reservation r =new Reservation()
-{
-    Price= 10,
-    Seat="A24",
-    Vip=true,
-    MyFlight=f2,
-    MyPassenger=passengerTest
-};
-amc.Add(r);
-
-amc.SaveChanges();
-
-
+flightService1.Add(flightQ12);
 /*
  
  
@@ -166,7 +179,7 @@ Creation Projet:
 EntityFrameworkCore version 6.0.9.
 EntityFrameworkCore.SqlServer version 6.0.9.
 EntityFrameworkCore.Tools version 6.0.9
-EntityFrameworkCore.Proxies.
+EntityFrameworkCore.Proxies.   // lazyLoading+ virtual dans chaque proprieté sde mappage
 ** njib fiha les tables lkol   public DbSet<Passenger> Passengers { get; set; } 
 **    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) // options Builder nhotou fih les parametremte3 l bdd
         {

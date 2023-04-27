@@ -15,3 +15,5 @@ C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\Ai
 C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.Data\obj\Debug\net6.0\AM.Data.pdb
 C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.Data\obj\Debug\net6.0\AM.Data.genruntimeconfig.cache
 C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.Data\obj\Debug\net6.0\ref\AM.Data.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.Data\bin\Debug\net6.0\AM.Core.Interfaces.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.Data\bin\Debug\net6.0\AM.Core.Interfaces.pdb

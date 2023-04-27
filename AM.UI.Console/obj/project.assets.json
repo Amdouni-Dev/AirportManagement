@@ -2236,11 +2236,22 @@
           "bin/placeholder/AM.Core.Extensions.dll": {}
         }
       },
+      "AM.Core.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AM.Core.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AM.Core.Interfaces.dll": {}
+        }
+      },
       "AM.Core.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AM.Core.Domain": "1.0.0"
+          "AM.Core.Domain": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0"
         },
         "compile": {
           "bin/placeholder/AM.Core.Services.dll": {}
@@ -2254,6 +2265,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AM.Core.Domain": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
@@ -7095,6 +7107,11 @@
       "path": "../AM.Core.Extensions/AM.Core.Extensions.csproj",
       "msbuildProject": "../AM.Core.Extensions/AM.Core.Extensions.csproj"
     },
+    "AM.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../AM.Core.Interfaces/AM.Core.Interfaces.csproj",
+      "msbuildProject": "../AM.Core.Interfaces/AM.Core.Interfaces.csproj"
+    },
     "AM.Core.Services/1.0.0": {
       "type": "project",
       "path": "../AM.Core.Services/AM.Core.Services.csproj",
@@ -7110,6 +7127,7 @@
     "net6.0": [
       "AM.Core.Domain >= 1.0.0",
       "AM.Core.Extensions >= 1.0.0",
+      "AM.Core.Interfaces >= 1.0.0",
       "AM.Core.Services >= 1.0.0",
       "AM.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9"
@@ -7153,6 +7171,9 @@
             },
             "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\ProjectsIndiv\\ProjectsClass\\Atelier1\\AirportManagement\\AM.Core.Extensions\\AM.Core.Extensions.csproj": {
               "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\ProjectsIndiv\\ProjectsClass\\Atelier1\\AirportManagement\\AM.Core.Extensions\\AM.Core.Extensions.csproj"
+            },
+            "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\ProjectsIndiv\\ProjectsClass\\Atelier1\\AirportManagement\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\ProjectsIndiv\\ProjectsClass\\Atelier1\\AirportManagement\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj"
             },
             "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\ProjectsIndiv\\ProjectsClass\\Atelier1\\AirportManagement\\AM.Core.Services\\AM.Core.Services.csproj": {
               "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\ProjectsIndiv\\ProjectsClass\\Atelier1\\AirportManagement\\AM.Core.Services\\AM.Core.Services.csproj"

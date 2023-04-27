@@ -66,3 +66,5 @@ C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\Ai
 C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.UI.Console\bin\Debug\net6.0\AM.Data.pdb
 C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.UI.Console\bin\Debug\net6.0\Castle.Core.dll
 C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.UI.Console\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.UI.Console\bin\Debug\net6.0\AM.Core.Interfaces.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\ProjectsIndiv\ProjectsClass\Atelier1\AirportManagement\AM.UI.Console\bin\Debug\net6.0\AM.Core.Interfaces.pdb

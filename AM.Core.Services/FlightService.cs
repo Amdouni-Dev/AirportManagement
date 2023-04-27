@@ -1,4 +1,5 @@
 ﻿using AM.Core.Domain; //Ajouter Refderence projet // double clik sur AM.Core.Services w najouti reference de projet elli howa AM.core.Domain
+using AM.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,14 @@ namespace AM.Core.Services
 {
     public class FlightService:IFlightService
     {
+
+
+        IRepository<Flight> repository;
+        public FlightService(IRepository<Flight> repository)
+        {
+            this.repository = repository;
+        }
+
         //Question2 Tp2
         public IList<Flight> Flights { get; set; }
 
@@ -214,17 +223,20 @@ namespace AM.Core.Services
             return null;
         }
 
+        //TP6 --> Q2
+        public void Add(Flight flight)
+        {
+            repository.Add(flight);
+            repository.Commit();
+        }
+        public void Delete(Flight flight)
+        {
+            repository.Delete(flight); repository.Commit();
+        }
 
-
-
-
-
-
-
-
-
-
-
-
+        public IList<Flight> GetAll()
+        {
+            return repository.GetAll();
+        }
     }
 }

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "AM.Core.Services/1.0.0": {
         "dependencies": {
-          "AM.Core.Domain": "1.0.0"
+          "AM.Core.Domain": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0"
         },
         "runtime": {
           "AM.Core.Services.dll": {}
@@ -17,6 +18,11 @@
       "AM.Core.Domain/1.0.0": {
         "runtime": {
           "AM.Core.Domain.dll": {}
+        }
+      },
+      "AM.Core.Interfaces/1.0.0": {
+        "runtime": {
+          "AM.Core.Interfaces.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "AM.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AM.Core.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

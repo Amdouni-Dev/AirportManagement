@@ -18,5 +18,8 @@ namespace AM.Core.Services
         // Fonction Anonymes Q 13 /a
         public delegate int GetScore(Passenger passenger);
         public Passenger GetSeniorPassenger(GetScore meth);
+        void Add(Flight flight);
+        void Delete(Flight flight);
+        IList<Flight> GetAll();
     }
 }

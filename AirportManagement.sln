@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.UI.Console", "AM.UI.Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Core.Services", "AM.Core.Services\AM.Core.Services.csproj", "{AB6FA6B3-FE44-4813-B626-63B55C178F56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Core.Extensions", "AM.Core.Extensions\AM.Core.Extensions.csproj", "{FA38C13E-F72B-44BE-8CCE-8B0A56730014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Core.Extensions", "AM.Core.Extensions\AM.Core.Extensions.csproj", "{FA38C13E-F72B-44BE-8CCE-8B0A56730014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Data", "AM.Data\AM.Data.csproj", "{714A43D2-625E-431B-9165-7D8F183C217B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Data", "AM.Data\AM.Data.csproj", "{714A43D2-625E-431B-9165-7D8F183C217B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Core.Interfaces", "AM.Core.Interfaces\AM.Core.Interfaces.csproj", "{10F010AE-1662-4953-B117-5D2F8DFB0CAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{714A43D2-625E-431B-9165-7D8F183C217B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714A43D2-625E-431B-9165-7D8F183C217B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714A43D2-625E-431B-9165-7D8F183C217B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F010AE-1662-4953-B117-5D2F8DFB0CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F010AE-1662-4953-B117-5D2F8DFB0CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F010AE-1662-4953-B117-5D2F8DFB0CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F010AE-1662-4953-B117-5D2F8DFB0CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

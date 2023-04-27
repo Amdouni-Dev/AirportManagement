@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AM.Core.Domain\AM.Core.Domain.csproj" />
     <ProjectReference Include="..\AM.Core.Extensions\AM.Core.Extensions.csproj" />
+    <ProjectReference Include="..\AM.Core.Interfaces\AM.Core.Interfaces.csproj" />
     <ProjectReference Include="..\AM.Core.Services\AM.Core.Services.csproj" />
     <ProjectReference Include="..\AM.Data\AM.Data.csproj" />
   </ItemGroup>

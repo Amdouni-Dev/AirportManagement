@@ -10,6 +10,7 @@
         "dependencies": {
           "AM.Core.Domain": "1.0.0",
           "AM.Core.Extensions": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0",
           "AM.Core.Services": "1.0.0",
           "AM.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.9"
@@ -1263,9 +1264,15 @@
           "AM.Core.Extensions.dll": {}
         }
       },
+      "AM.Core.Interfaces/1.0.0": {
+        "runtime": {
+          "AM.Core.Interfaces.dll": {}
+        }
+      },
       "AM.Core.Services/1.0.0": {
         "dependencies": {
-          "AM.Core.Domain": "1.0.0"
+          "AM.Core.Domain": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0"
         },
         "runtime": {
           "AM.Core.Services.dll": {}
@@ -1274,6 +1281,7 @@
       "AM.Data/1.0.0": {
         "dependencies": {
           "AM.Core.Domain": "1.0.0",
+          "AM.Core.Interfaces": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
@@ -2150,6 +2158,11 @@
       "sha512": ""
     },
     "AM.Core.Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AM.Core.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
