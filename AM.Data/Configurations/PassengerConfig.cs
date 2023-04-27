@@ -21,8 +21,14 @@ namespace AM.Data.Configurations
                     .HasColumnName("Name");
                     full.Property(f => f.LastName)
                     .IsRequired();
-                }
-            );
+                });
+            //builder.HasDiscriminator<int>("IsTraveller")
+            //    .HasValue<Passenger>(0)
+            //    .HasValue<Traveller>(1)
+            //    .HasValue<Staff>(2);
+
+
+
         }
     }
 }

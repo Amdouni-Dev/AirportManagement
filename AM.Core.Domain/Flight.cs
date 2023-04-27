@@ -18,8 +18,9 @@ namespace AM.Core.Domain
         public virtual Plane? MyPlane { get; set; }
         [ForeignKey("MyPlane")]
         public int? PlaneID { get; set; }
-        public IList<Passenger> passengers { get; set; }
+        public virtual IList<Passenger> passengers { get; set; }
         public string Comment { get; set; }
+        public virtual  IList<Reservation> Reservations { get; set; }
         public override string ToString()
         {
             return "Destination: " + Destination + ";"

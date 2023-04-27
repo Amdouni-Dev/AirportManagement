@@ -28,10 +28,10 @@ namespace AM.Core.Domain
         [Phone(ErrorMessage ="tel non valide")]
         public string TelNumber { get; set; }
         public FullName FullName { get; set; }
-        public IList<Flight> flights { get; set; }
+        public virtual  IList<Flight> flights { get; set; }
+        public virtual IList<Reservation> Reservations { get; set; }
 
 
-     
         //TP1 Question 11.a
         public bool checkProfile(string nom,string prenom)
         {

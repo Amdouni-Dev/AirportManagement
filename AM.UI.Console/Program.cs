@@ -98,4 +98,30 @@ Flight f2 = new Flight()
 AMContext amc = new AMContext();
 //amc.Add(plane3);
 amc.Add(f2);
+Passenger passengerTest = new Passenger()
+{
+    FirstName="Mouna",
+    LastName="AMdouni",
+    BirthDate = new DateTime(2000, 07, 27),
+    PassportNumber = "1234567",
+    EmailAddress = "mouna@gmail.com",
+    FullName = new FullName()
+    {
+
+        FirstName = "Mouna",
+        LastName = "Amdouni"
+    },
+    TelNumber = "20618005"
+};
+amc.Add(passengerTest);
+Reservation r =new Reservation()
+{
+    Price= 10,
+    Seat="A24",
+    Vip=true,
+    MyFlight=f2,
+    MyPassenger=passengerTest
+};
+amc.Add(r);
+
 amc.SaveChanges();

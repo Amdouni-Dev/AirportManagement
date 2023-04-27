@@ -29,17 +29,19 @@ namespace AM.Data
         optionsBuilder.UseSqlServer(@"Data Source=(localdb)\mssqllocaldb; 
         Initial Catalog = Airport;  
         Integrated Security = true");
-           
-           
+
+            optionsBuilder.UseLazyLoadingProxies();
 
 
-           // base.OnConfiguring(optionsBuilder);
+            // base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new PlaneConfig());
             modelBuilder.ApplyConfiguration(new FlightConfig());
             modelBuilder.ApplyConfiguration(new PassengerConfig());
+            modelBuilder.ApplyConfiguration(new ReservationConfig());
+
 
 
 
