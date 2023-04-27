@@ -15,6 +15,7 @@ namespace AM.Core.Interfaces
         T Get(int id);
         T Get(string id);
         IList<T> GetAll();
-        void Commit();
+        //TP6 Q10
+      //  void Commit();
     }
 }

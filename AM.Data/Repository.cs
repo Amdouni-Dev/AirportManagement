@@ -15,8 +15,9 @@ namespace AM.Data
         {this.context = context;}
         public void Add(T t)
         {context.Add(t);}
-        public void Commit()
-        { context.SaveChanges();}
+        //TP6 Q10
+        //public void Commit()
+        //{ context.SaveChanges();}
         public void Delete(T t)
         {context.Remove(t);}
         public T Get(int id)

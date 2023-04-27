@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Data\\AM.Data.csproj": {}
+    "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Data\\AM.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Domain\\AM.Core.Domain.csproj": {
+    "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Domain\\AM.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Domain\\AM.Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Domain\\AM.Core.Domain.csproj",
         "projectName": "AM.Core.Domain",
-        "projectPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Domain\\AM.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\yassm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Domain\\AM.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mouna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yassm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mouna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,20 +64,20 @@
         }
       }
     },
-    "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj": {
+    "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj",
         "projectName": "AM.Core.Interfaces",
-        "projectPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\yassm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Mouna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yassm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mouna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -124,20 +124,20 @@
         }
       }
     },
-    "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Data\\AM.Data.csproj": {
+    "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Data\\AM.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Data\\AM.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Data\\AM.Data.csproj",
         "projectName": "AM.Data",
-        "projectPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Data\\AM.Data.csproj",
-        "packagesPath": "C:\\Users\\yassm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Data\\obj\\",
+        "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Data\\AM.Data.csproj",
+        "packagesPath": "C:\\Users\\Mouna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yassm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mouna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -153,11 +153,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Domain\\AM.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Domain\\AM.Core.Domain.csproj"
+              "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Domain\\AM.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Domain\\AM.Core.Domain.csproj"
               },
-              "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\yassm\\Downloads\\TP-AIRPORT-MANAGEMENT-main (1)\\TP-AIRPORT-MANAGEMENT-main\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj"
+              "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Mouna\\Desktop\\Desktop\\sem2\\.net\\GitYasmin\\Patrons-de-conceptions--Couche-services\\AM.Core.Interfaces\\AM.Core.Interfaces.csproj"
               }
             }
           }

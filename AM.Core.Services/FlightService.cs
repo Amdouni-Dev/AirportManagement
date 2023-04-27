@@ -7,12 +7,14 @@ using System.Linq.Expressions;
 
 namespace AM.Core.Services
 {
-    public class FlightService : IFlightService
+    public class FlightService :Service<Flight>, IFlightService
     {
-        IRepository<Flight> repository;
-        public FlightService(IRepository<Flight> repository)
+        //IRepository<Flight> repository;
+        //IUnitOfWork unitOfWork;
+        public FlightService(IUnitOfWork unitOfWork):base(unitOfWork) 
         {
-            this.repository = repository;   
+            //this.unitOfWork = unitOfWork;
+            //repository = unitOfWork.GetRepository<Flight>();
         }
 
         //Le langage LINQ
@@ -180,20 +182,23 @@ namespace AM.Core.Services
             return null;
         }
         //TP6 --> Q2
-        public void Add(Flight flight)
-        {
-            repository.Add(flight);
-            repository.Commit();
-        }
-        public void Delete(Flight flight)
-        {
-            repository.Delete(flight); repository.Commit();
-        }
+        //public void Add(Flight flight)
+        //{
+        //    repository.Add(flight);
+        //    // repository.Commit();
+        //    unitOfWork.Save();
+        //}
+        //public void Delete(Flight flight)
+        //{
+        //    repository.Delete(flight);
+        //    //repository.Commit();
+        //    unitOfWork.Save();
+        //}
 
-        public IList<Flight> GetAll()
-        {
-            return repository.GetAll();
-        }
+        //public IList<Flight> GetAll()
+        //{
+        //    return repository.GetAll();
+        //}
     }
 
 }
