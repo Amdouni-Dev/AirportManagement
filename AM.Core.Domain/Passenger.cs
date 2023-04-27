@@ -9,17 +9,25 @@ namespace AM.Core.Domain
 {
     public class Passenger
     {
+
+        [Display(Name ="Date Of birth")]
         public DateTime BirthDate
         {
             get;
             set;
         }
         [Key]
+        [MinLength(7, ErrorMessage = "MinLength 7")]
         public string PassportNumber { get; set; }
+        [EmailAddress(ErrorMessage ="Adress non valide")]
         public string EmailAddress { get; set; }
+        [MinLength(3, ErrorMessage = "MinLength 3")]
+        [MaxLength(7, ErrorMessage = "MinLength 25")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [Phone(ErrorMessage ="tel non valide")]
         public string TelNumber { get; set; }
+        public FullName FullName { get; set; }
         public IList<Flight> flights { get; set; }
 
 
