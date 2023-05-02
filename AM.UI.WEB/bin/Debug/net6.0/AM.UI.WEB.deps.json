@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AM.UI.WEB/1.0.0": {
+        "runtime": {
+          "AM.UI.WEB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AM.UI.WEB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

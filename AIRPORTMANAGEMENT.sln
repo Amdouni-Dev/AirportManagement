@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Core.Extensions", "AM.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Data", "AM.Data\AM.Data.csproj", "{C73CB092-5C7A-410F-B5BC-4515BEC01EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Core.Interfaces", "AM.Core.Interfaces\AM.Core.Interfaces.csproj", "{1EDDEB30-7EBC-4E8C-A884-5A45CBAAF6E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AM.Core.Interfaces", "AM.Core.Interfaces\AM.Core.Interfaces.csproj", "{1EDDEB30-7EBC-4E8C-A884-5A45CBAAF6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.UI.WEB", "AM.UI.WEB\AM.UI.WEB.csproj", "{F9808DDF-DCBC-48CC-A731-C01649614705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1EDDEB30-7EBC-4E8C-A884-5A45CBAAF6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EDDEB30-7EBC-4E8C-A884-5A45CBAAF6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EDDEB30-7EBC-4E8C-A884-5A45CBAAF6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9808DDF-DCBC-48CC-A731-C01649614705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9808DDF-DCBC-48CC-A731-C01649614705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9808DDF-DCBC-48CC-A731-C01649614705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9808DDF-DCBC-48CC-A731-C01649614705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
