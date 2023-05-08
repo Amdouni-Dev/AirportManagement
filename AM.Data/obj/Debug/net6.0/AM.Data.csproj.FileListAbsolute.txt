@@ -68,3 +68,22 @@ C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-ma
 C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Data\obj\Debug\net6.0\ref\AM.Data.dll
 C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Data\bin\Debug\net6.0\AM.Core.Interfaces.dll
 C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Data\bin\Debug\net6.0\AM.Core.Interfaces.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Data.deps.json
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Data.runtimeconfig.json
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Data.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Data.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Core.Domain.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Core.Interfaces.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Core.Domain.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\bin\Debug\net6.0\AM.Core.Interfaces.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.csproj.AssemblyReference.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.AssemblyInfoInputs.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.AssemblyInfo.cs
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.csproj.CoreCompileInputs.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.csproj.CopyComplete
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\refint\AM.Data.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\AM.Data.genruntimeconfig.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Data\obj\Debug\net6.0\ref\AM.Data.dll

@@ -1,7 +1,17 @@
+using AM.Core.Interfaces;
+using AM.Core.Services;
+using AM.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IFlightService, FlightService>();
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
+builder.Services.AddDbContext<DbContext, AMContext>();
+
 
 var app = builder.Build();
 

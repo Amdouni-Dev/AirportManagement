@@ -58,3 +58,18 @@ C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-ma
 C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Extensions\obj\Debug\net6.0\refint\AM.Core.Extensions.dll
 C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.pdb
 C:\Users\yassm\Downloads\TP-AIRPORT-MANAGEMENT-main (1)\TP-AIRPORT-MANAGEMENT-main\AM.Core.Extensions\obj\Debug\net6.0\ref\AM.Core.Extensions.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\bin\Debug\net6.0\AM.Core.Extensions.deps.json
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\bin\Debug\net6.0\AM.Core.Extensions.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\bin\Debug\net6.0\AM.Core.Extensions.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\bin\Debug\net6.0\AM.Core.Domain.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\bin\Debug\net6.0\AM.Core.Domain.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.csproj.AssemblyReference.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.AssemblyInfoInputs.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.AssemblyInfo.cs
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.csproj.CopyComplete
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\refint\AM.Core.Extensions.dll
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\AM.Core.Extensions.pdb
+C:\Users\Mouna\Desktop\Desktop\sem2\.net\GitYasmin\Patrons-de-conceptions--Couche-services\AM.Core.Extensions\obj\Debug\net6.0\ref\AM.Core.Extensions.dll
