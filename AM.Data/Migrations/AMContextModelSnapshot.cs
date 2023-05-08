@@ -34,13 +34,11 @@ namespace AM.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Departure")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Departure")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Destination")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Destination")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("EffectiveArrival")
                         .HasColumnType("date");
